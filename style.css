@@ -129,7 +129,7 @@ header img{
 }
 
 
-/* ----------Sobre---------*/
+/* -----------------------------------------Sobre-------------------------------------------------------*/
 #Sobre{
     display: flex;
     align-items: center;
@@ -154,4 +154,19 @@ header img{
     font-size: 20px;
     text-align: justify;
     margin-top: 30px;
+}
+
+/* --------------------------------------------Parallx---------------------------------------------------- */
+
+#parallax{
+    height: 250px;
+    /* background-image: url(./imagens/parallax.svg); */
+
+    background: linear-gradient(rgba(0, 0, 0,0.26)), url(./imagens/parallax.svg);
+
+    margin-bottom: 120px;
+
+    background-attachment: fixed;
+
+    background-size: 30%;
 }
